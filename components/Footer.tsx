@@ -61,11 +61,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin size={18} className="text-accent shrink-0 mt-1" />
-                <span>123 Elite Plaza, Downtown Business District, Saudi Arabia</span>
+                <span>6158 Prince Sultan Road, Othaim Markets, Qurtubah, Al Khobar 34236</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone size={18} className="text-accent shrink-0" />
-                <span>+966 50 123 4567</span>
+                <span>054 570 4344</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail size={18} className="text-accent shrink-0" />

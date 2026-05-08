@@ -12,15 +12,15 @@ const contactDetails = [
     icon: <Phone className="w-6 h-6 text-accent" />,
     title: "Call Us",
     description: "Mon-Fri from 9am to 6pm.",
-    value: "+966 12 345 6789",
-    link: "tel:+966123456789"
+    value: "054 570 4344",
+    link: "tel:+966545704344"
   },
   {
     icon: <MapPin className="w-6 h-6 text-accent" />,
     title: "Our Location",
     description: "Visit our main office.",
-    value: "King Fahd Rd, Riyadh, Saudi Arabia",
-    link: "https://maps.google.com"
+    value: "6158 Prince Sultan Road, Othaim Markets, Qurtubah, Al Khobar 34236",
+    link: "https://maps.google.com/?q=6158%20Prince%20Sultan%20Road%2C%20Othaim%20Markets%2C%20Qurtubah%2C%20Al%20Khobar%2034236"
   },
   {
     icon: <Clock className="w-6 h-6 text-accent" />,
