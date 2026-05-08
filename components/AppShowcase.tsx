@@ -37,7 +37,7 @@ export default function AppShowcase() {
     align: 'center',
     skipSnaps: false,
     containScroll: false,
-  }, [Autoplay({ delay: 3000, stopOnInteraction: false })]);
+  }, [Autoplay({ delay: 6000, stopOnInteraction: false })]);
 
   const [tweenValues, setTweenValues] = useState<number[]>([]);
   const [diffValues, setDiffValues] = useState<number[]>([]);
@@ -119,13 +119,13 @@ export default function AppShowcase() {
                     >
                       <div className="relative w-full max-w-[280px] aspect-[9/18.6] rounded-[3rem] border-[12px] border-[#1a1c22] overflow-hidden shadow-[0_30px_60px_-15px_rgba(59,130,246,0.3)] group bg-[#1a1c22]">
                         {/* Glass Overlay for depth */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10 opacity-60" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10 opacity-60 rounded-[2.25rem] [backface-visibility:hidden]" />
                         
                         <Image 
                           src={screen.image} 
                           alt={screen.title} 
                           fill 
-                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          className="object-cover rounded-[2.25rem] group-hover:scale-105 transition-transform duration-700 will-change-transform transform-gpu [backface-visibility:hidden]"
                           priority={index === 0}
                         />
                         
